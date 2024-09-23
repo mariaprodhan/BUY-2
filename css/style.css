@@ -1,0 +1,351 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* header start */
+#header{
+    margin-top: 20px;
+    background-color: #444444;
+}
+.header-left a{
+    color: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-right a{
+    font-family: 'Open Sans', sans-serif;
+    color: #dddddd;
+}
+
+/* header end */
+
+/* nev start */
+.menu-bg {
+    margin: 20px 0;
+}
+ .form-control{
+     outline: none;
+ }
+ .nev-icon{
+    margin-left: 250px;
+ }
+ .nev-icon img{
+    padding-left: 30px;
+ }
+ .menu-bg ul li a{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: #222 !important;
+}
+.menu-bg ul li a::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    top: 100%;
+    left: 10px;
+    opacity: 0;
+}
+.menu-bg ul li a::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    top: 110%;
+    left: 10px;
+    opacity: 0;
+}
+.menu-bg ul li a:hover{
+    color: #de4644 !important;
+}
+.menu-bg ul li a:hover::after{
+    opacity: 1;
+    background-color: #de4644;
+}
+.menu-bg ul li a:hover::before{
+    opacity: 1;
+    background-color: #de4644;
+}
+.nav-pera{
+    padding: 0 4px;
+}
+.nev-icon1 p{
+    font-family: 'Raleway', sans-serif;
+}
+.nev-icon1:hover{
+    color: #de4644;
+}
+.nev-icon2{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+/* nav end */
+/* banner start */
+#banner{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+.banner-text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.banner-text i{
+    padding: 5px 5px 0 5px;
+}
+.banner-text p:hover{
+    color: #a6383b;
+}
+/* banner end */
+/* about start */
+.about-img img{
+    padding: 80px 400px 80px 0;
+}
+.about-img{
+    position: relative;
+}
+.about-ovarly{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.747);
+    top: 150px;
+    left: 620px;
+    width: 45%;
+    height: 55%;
+
+}
+.about-text{
+    color: #fff;
+    font-size: 14px;
+    padding: 35px 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* about end */
+/* goodwill start */
+#goodwill{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.800), rgba(0,0,0,0.800)), url(../image/goodwill.jpg) no-repeat center / cover;
+    padding: 40px 0;
+}
+.good-text{
+    color: #fff;
+}
+.goodwill-icon{
+    font-family: 'Raleway', sans-serif;
+}
+/* goodwill end */
+/* oue design start */
+.design-head {
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+.design-head h1{
+    margin-bottom: 50px;
+    position: relative;
+}
+.design-head h1::after{
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 1px;
+    background-color: #de4644;
+    top: 115%;
+    left: 440px;
+}
+.design-head h1::before{
+    position: absolute;
+    content: '';
+    width: 110px;
+    height: 1px;
+    background-color: #de4644;
+    top: 130%;
+    left: 440px;
+}
+.design-img{
+    position: relative;
+}
+.design-ovarly{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background-color:  rgba(0,0,0,0.5);
+    width: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.design-ovarly ul{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.design-ovarly ul li{
+    margin: 20px 0;
+}
+.design-ovarly ul li i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.design-ovarly ul li i:hover{
+    background-color: #de4644;
+    border: 2px solid transparent;
+}
+.design-img:hover .design-ovarly{
+    width: 100px;
+    opacity: 1;
+}
+.design-text{
+    border: 1px solid #222;
+    height: 80px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    border-top: none;
+}
+.design-text h5{
+    padding-top: 10px;
+}
+
+/* our design end */
+/* pathner start */
+.pathner-main{
+    margin: 100px 0;
+}
+.pathner-img:hover{
+    /*border-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    */border: 3px solid #d1d1d1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* pathner end */
+/* footer start */
+#footer{
+    background-color: #353535;
+    padding: 50px 0;
+}
+.footer-text{
+    color: #fff;
+    padding-top: 50px;
+}
+.footer-text p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #d2d2d2;
+}
+.contact-head{
+    color: #fff;
+}
+.contact-main h4{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    font-size: 19px;
+}
+.contact-icon i{
+    padding: 10px 15px 8px 0;
+    color: #d2d2d2;
+}
+.contact-icon p{
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #d2d2d2;
+}
+.account-head{
+    color: #fff;
+    margin-left: 30px;
+}
+.account-main h4{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.account-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #d2d2d2;
+}
+.account-text p:hover{
+    color: #b44240;
+
+}
+.footer-right{
+    color: #fff;
+}
+.mail{
+    padding: 3px 70px 3px 4px;
+    border: 1px solid #fff;
+    border-right: none;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.sub{
+    padding: 5px;
+    background-color: #de4644;
+    font-size: 13px;
+}
+.right-main h4{
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-size: 19px;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.right-batton input{
+    border: 1px solid #fff;
+    
+}
+.right-batton button{
+    background-color: #de4644;
+    font-size: 20px;
+}
+.right-icon h4{
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.right-icon i{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #222;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.right-icon i:hover{
+    background-color: #de4644;
+    color: #fff;
+}
+/* footer end */
+/* copyright start */
+#copy{
+    background-color: #555555;
+    padding: 25px 0;
+}
+.copy-text p{
+    color: #d2d2d2;
+}
+.copy-text a{
+    color: #de4644;
+}
+/* copyright end */
